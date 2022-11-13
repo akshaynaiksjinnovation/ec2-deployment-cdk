@@ -1,0 +1,37 @@
+{
+  "vpc-provider:account=318095849799:filter.vpc-id=vpc-0979616b4b28f01e9:region=us-east-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0979616b4b28f01e9",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0aaa99a0d24da88bb",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-039bc8ffec6935a9a"
+          },
+          {
+            "subnetId": "subnet-0c2356f89244911d6",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-039bc8ffec6935a9a"
+          },
+          {
+            "subnetId": "subnet-01b23d7428ff8d707",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-039bc8ffec6935a9a"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=318095849799:filters.image-type.0=machine:filters.name.0=Drupal_setup:filters.state.0=available:region=us-east-2": "ami-0590d4103ebb46989",
+  "ami:account=318095849799:filters.image-type.0=machine:filters.name.0=drupal_ami:filters.state.0=available:region=us-east-2": "ami-0f0477edaa7e1d046",
+  "ami:account=318095849799:filters.image-type.0=machine:filters.name.0=drupal-ami-2022-10-20:filters.state.0=available:region=us-east-2": "ami-0d6eef6b8560a7e77",
+  "ami:account=318095849799:filters.image-type.0=machine:filters.name.0=drupal_2022-10-22:filters.state.0=available:region=us-east-2": "ami-01f5a9fd9955fb97e"
+}
